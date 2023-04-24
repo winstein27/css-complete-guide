@@ -1,0 +1,35 @@
+.main-plan {
+  border: 3px solid #0e4f1f;
+  background: #d5ffdc;
+  padding: 2rem 1rem;
+  width: 800px;
+  margin: 1rem 0;
+}
+
+.main-plan:hover {
+  border: 3px solid #ff1b68;
+}
+
+.plan-highlighted {
+  background: #0e4f1f;
+}
+
+.main-plan a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.plan__description {
+  color: #858585;
+}
+
+.plan__benefit {
+  background: white;
+  color: #0e4f1f;
+  border: 2px solid #0e4f1f;
+  padding: 1rem;
+}
+
+.plan-highlighted .plan__title {
+  color: white;
+}
