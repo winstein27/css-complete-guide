@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: span 4;
+  height: 50px;
+  background-color: aqua;
+}
+
+.side-bar {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  height: 50px;
+  background-color: bisque;
+}
+
+.main {
+  grid-column-start: 2;
+  grid-column-end: span 3;
+  height: 50px;
+  background-color: burlywood;
+}
+
+.footer {
+  grid-column-start: 1;
+  grid-column-end: span 4;
+  height: 50px;
+  background-color: violet;
+}
